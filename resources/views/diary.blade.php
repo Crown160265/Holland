@@ -1,0 +1,141 @@
+@extends('layouts.main')
+
+@section('main')
+    
+    <div class="slider-section slider-active overflow-hidden">
+        <div class="single-slider-02 animation-style-01" style="background-image: url(/assets/images/bg/diarybackground.jpg);">
+            <div class="container">
+                <div class="rolling-text slider-content-04__title text-white">
+                    <span>O</span><span>u</span><span>r</span> <span>M</span><span>i</span><span>l</span><span>k</span>
+                </div><br>
+                <div class="rolling-text slider-content-04__title text-white">
+                    <span>D</span><span>e</span><span>l</span><span>i</span><span>c</span><span>i</span><span>o</span><span>u</span><span>s</span>
+                </div>
+                <img class="call-to-action-diary__images_1" src="/assets/images/bg/milk3.png" alt="Features Card">
+            </div>
+        </div>
+    </div>
+    <div class="section-padding-01 bg-color-01" style="background-image: url(/assets/images/bg/web-bg.png);background-size: cover; background-repeat:no-repeat; height:1000px;">
+        <div class="container">
+            <!-- Section Title Strat -->
+            <div class="section-title-03 text-center max-width-720 mx-auto">
+                <h2 class="section-title-03__title"><span>Zzoet van toen</span></h2>
+                <p style="color: #858585!important;">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt</p>
+            </div>
+            <!-- Section Title End -->
+            <div class="featured-product-active">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        @foreach ($products->chunk(3) as $chunk)
+                            <div class="swiper-slide">
+                                <div class="row g-6 gy-xxl-16 gx-xxl-10">
+                                    @foreach ($chunk as $product)
+                                        @php
+                                            $productName = $product->name;
+                                            $productPrice = $product->price;
+                                            $imageUrl = '/assets/images/diary' .'/' . $productName . '.jpg'; 
+                                        @endphp
+                                    
+                                    <div class="col-lg-4 col-sm-6">
+                                    <!-- Product Item Start -->
+                                        <div class="product-item product-item-03 bg-white p-4 p-md-6 text-center milk-image">
+                                            <div class="product-item__image">
+                                                <a href="/product/{{$productName}}">
+                                                    <img src={{$imageUrl}}  style="width:70%; height:auto; aspect-ratio:1/1;" alt="Product">
+                                                </a>
+                                                <ul class="product-item__meta meta-middle">
+                                                    <li class="product-item__meta-action"><a class="labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a></li>
+                                                    <li class="product-item__meta-action"><a class="labtn-icon-cart" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Select options" data-bs-toggle="modal" data-bs-target="#modalCart"></a></li>
+                                                    <li class="product-item__meta-action"><a class="labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a></li>
+                                                    <li class="product-item__meta-action"><a class="labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-item__content px-0 pt-9 pb-4 px-0">
+                                                <h5 class="product-item__title fs-5"><a href="/product/{{$productName}}">{{$productName}}</a></h5>
+                                                <div class="product-item__rating">
+                                                    <div class="product-item__star-rating" style="width: 100%;"></div>
+                                                </div>
+                                                <span class="product-item__price fs-4">${{$productPrice}}</span>
+                                            </div>
+                                        </div>
+                                    <!-- Product Item End -->
+                                    </div>
+
+                                    @endforeach
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Section End -->
+
+    <!-- Why Choose Section Start -->
+    <div class="section-padding-03 custom-container-four container-fluid why-choose">
+        <div class="row">
+            <div class="col-xl-6 col-lg-5">
+                <div class="why-choose-images">
+                    <!-- <div class="why-choose-image1"> -->
+                        <img src="{{asset('/assets/images/make-sale/makemilk.jpg')}}" style="width:100%; border-radius: 50px;" alt="Image">
+                    <!-- </div> -->
+                    <!-- <div class="why-choose-image2">
+                        <img src="{{asset('/assets/images/product/how_make_355-457.jpg')}}" alt="Image">
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-7 align-self-center">
+                <div class="why-choose-content">
+                    <div class="why-choose-head">
+                        <span class="why-choose-subtitle">Why Choose Us</span>
+                        <h2 class="why-choose-title">How Did We Make The Diary</h2>
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header font-black" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="lastudioicon lastudioicon-down-arrow"></i>
+                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body font-black">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="lastudioicon lastudioicon-down-arrow"></i>
+                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body font-black">
+                                    Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="lastudioicon lastudioicon-down-arrow"></i>
+                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body font-black">
+                                    Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Choose Section End -->
+@endsection
+    
