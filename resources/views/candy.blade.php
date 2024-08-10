@@ -46,7 +46,7 @@
                             <div class="features-card-item__content text-center">
                                 <div class="features-card-item__inner background-red">
                                     <h3 class="features-card-item__title font-white"><a href="/products/Cinnamon-Chunks">Cinnamon Chunks</a></h3>
-                                    <p class="font-white">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor.</p>
+                                    <p class="font-white">Deze bieden een explosie van gedurfde, pittige kaneel in elke knapperige hap. Deze snoepjes leveren een intense, bevredigende smaak die perfect is voor degenen die van een zoete en pittige kick houden.</p>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="features-card-item__content text-center">
                                 <div class="features-card-item__inner">
                                     <h3 class="features-card-item__title"><a href="/products/Cinnamon-Sticks">Cinnamon Sticks</a></h3>
-                                    <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor.</p>
+                                    <p>Deze combineren de klassieke, troostende smaak van kaneel met een verrukkelijk, stokvormig snoepje. Hun unieke textuur en rijke smaak maken ze een perfecte traktatie voor een gezellige, zoete verwennerij.</p>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                             <div class="features-card-item__content text-center">
                                 <div class="features-card-item__inner">
                                     <h3 class="features-card-item__title font-white"><a href="/products/Cinnamon-Chunks">Cinnamon pillows</a></h3>
-                                    <p class="font-white">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor.</p>
+                                    <p class="font-white">Deze hebben een zachte, kussenachtige textuur met een warme, zoete kaneelvulling. Deze snoepjes zijn ideaal voor degenen die genieten van een zachte, met kaneel doordrenkte traktatie.</p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
             <!-- Section Title Strat -->
             <div class="section-title-03 text-center max-width-720 mx-auto">
                 <h2 class="section-title-03__title"><span>Zzoet van toen</span></h2>
-                <p style="color: #858585!important;">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt</p>
+                <p style="color: #858585!important;">Dit product combineert tijdloze, geliefde smaken met een frisse, eigentijdse touch, en biedt een smaakervaring die het verleden eert en tegelijkertijd het heden verrukt.</p>
             </div>
             <!-- Section Title End -->
             <div class="featured-product-active">
@@ -185,23 +185,23 @@
                             <h2 class="accordion-header font-black" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <i class="lastudioicon lastudioicon-down-arrow"></i>
-                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                    <span>Hoe maak je de kaneelbrokken</span>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body font-black">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.</div>
+                                <div class="accordion-body font-black">Om kaneelbrokken te maken, beginnen we met het verwarmen van een mengsel van suiker, water en een vleugje glucosestroop tot de perfecte temperatuur. Zodra het mengsel de ideale consistentie heeft bereikt, voegen we er een rijk kaneelextract en een vleugje natuurlijke rode kleurstof aan toe om het die kenmerkende look te geven. De hete snoepjes worden vervolgens in mallen gegoten en mogen afkoelen voordat ze in grote stukken worden gebroken, zodat elke hap een intense kaneelsmaak oplevert.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <i class="lastudioicon lastudioicon-down-arrow"></i>
-                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                    <span>Hoe maak je de kaneelstokjes</span>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body font-black">
-                                    Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.
+                                    Om kaneelstokjes te maken, beginnen we met het verwarmen van een mengsel van suiker en water tot het een dikke siroop vormt. We voegen dan kaneelolie toe voor die sterke, pittige smaak en vormen het mengsel voorzichtig tot lange, dunne stokjes. Zodra ze zijn afgekoeld, worden elk stokje afzonderlijk verpakt om de gladde textuur en intense kaneelsmaak te behouden.
                                 </div>
                             </div>
                         </div>
@@ -209,12 +209,12 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <i class="lastudioicon lastudioicon-down-arrow"></i>
-                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                    <span>Hoe maak je de kaneelkussentjes</span>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body font-black">
-                                    Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.
+                                    Cinnamon Pillows beginnen met een opgeklopte suikersiroop die precies op de juiste temperatuur is verhit. Nadat we het mengsel hebben voorzien van kaneelsmaak, wordt het belucht om een ​​luchtige, kussenachtige textuur te creëren. Zodra het is afgekoeld, snijden we het snoep in zachte, kussenvormige stukken die een uitgebalanceerde kaneelsmaak bieden met een heerlijke crunch.
                                 </div>
                             </div>
                         </div>

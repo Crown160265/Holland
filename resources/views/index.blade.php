@@ -83,7 +83,7 @@
                             <!-- Best Service Strat -->
                             <div class="best-service-item">
                                 <h4 class="best-service-item__title">01.Custom shape</h4>
-                                <p class="best-service-item__desc">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco.</p>
+                                <p class="best-service-item__desc">Wij maken speelse krullen met vloeiende rondingen en heerlijke melk waar kinderen dol op zijn.</p>
                             </div>
                             <!-- Best Service End -->
 
@@ -93,7 +93,7 @@
                             <!-- Best Service Strat -->
                             <div class="best-service-item">
                                 <h4 class="best-service-item__title">02.Free shipping</h4>
-                                <p class="best-service-item__desc">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco.</p>
+                                <p class="best-service-item__desc">Profiteer van gratis verzending. Bij aankoop van melk is verse melk bij u thuis gegarandeerd.</p>
                             </div>
                             <!-- Best Service End -->
 
@@ -103,7 +103,7 @@
                             <!-- Best Service Strat -->
                             <div class="best-service-item">
                                 <h4 class="best-service-item__title">03.new design</h4>
-                                <p class="best-service-item__desc">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco.</p>
+                                <p class="best-service-item__desc">Het nieuwe ontwerp heeft levendige kleuren en stijlvolle verpakkingen. Wij moedigen nieuwe ontwerpen aan.</p>
                             </div>
                             <!-- Best Service End -->
 
@@ -113,7 +113,7 @@
                             <!-- Best Service Strat -->
                             <div class="best-service-item">
                                 <h4 class="best-service-item__title">04.high-quality service</h4>
-                                <p class="best-service-item__desc">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco.</p>
+                                <p class="best-service-item__desc">Wij bieden een eersteklas service en zorgen ervoor dat elke bestelling met zorg wordt behandeld.</p>
                             </div>
                             <!-- Best Service End -->
 
@@ -147,20 +147,18 @@
                                 <div class="col-md-3 mb-30">
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Delicious</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <h4 class="featured-product-item__title">Candy</h4>
+                                        <p>Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Chocolate</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Elk stuk is zorgvuldig gemaakt om de essentie van vreugdevolle gedeelde momenten vast te leggen, en belichaamt een gevoel van saamhorigheid door zijn verrukkelijke smaak en luxueuze textuur.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Cream</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Deze voortreffelijke traktatie bevredigt niet alleen uw zoetekauw, maar verbetert ook elke gelegenheid, waardoor het de perfecte keuze is om te genieten met vrienden en geliefden.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                 </div>
@@ -176,20 +174,18 @@
                                 <div class="col-md-3 mb-30">
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Flavor</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <h4 class="featured-product-item__title">Milk</h4>
+                                        <p>Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Species</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Deze innovatieve combinatie creëert een unieke fusie van de gladde textuur van melk en de levendigheid van snoep, wat een werkelijk bevredigende en gedenkwaardige traktatie creëert.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Delicious</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Of u nu een speciaal moment viert of gewoon op zoek bent naar een alledaags genot, onze Millk biedt een vreugdevolle manier om te genieten van een harmonieuze mix van smaken in elke slok.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                 </div>
@@ -203,83 +199,22 @@
                                 <div class="col-md-3 mb-30">
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Delicious</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <h4 class="featured-product-item__title">Candy</h4>
+                                        <p>Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Chocolate</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Elk stuk is zorgvuldig gemaakt om de essentie van vreugdevolle gedeelde momenten vast te leggen, en belichaamt een gevoel van saamhorigheid door zijn verrukkelijke smaak en luxueuze textuur.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Cream</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Deze voortreffelijke traktatie bevredigt niet alleen uw zoetekauw, maar verbetert ook elke gelegenheid, waardoor het de perfecte keuze is om te genieten met vrienden en geliefden.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                 </div>
                                 <div class="col-md-6 mb-30">
-
-                                    <!-- Featured Products Item Image Strat -->
-                                    <div class="featured-product-item__image">
-                                        <div class="image">
-                                            <img src="assets/images/bg/about2.png" width="765" height="633" alt="Product">
-                                        </div>
-                                    </div>
-                                    <!-- Featured Products Item Image End -->
-
-                                </div>
-                                <div class="col-md-3 mb-30">
-                                    <!-- Featured Products Item Content Strat -->
-                                    <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Flavor</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
-                                    </div>
-                                    <!-- Featured Products Item Content End -->
-                                    <!-- Featured Products Item Content Strat -->
-                                    <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Species</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
-                                    </div>
-                                    <!-- Featured Products Item Content End -->
-                                    <!-- Featured Products Item Content Strat -->
-                                    <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Delicious</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
-                                    </div>
-                                    <!-- Featured Products Item Content End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Featured Products Title End -->
-
-                        <!-- Featured Products Title Strat -->
-                        <div class="swiper-slide featured-product-item">
-                            <div class="row mb-n30">
-                                <div class="col-md-3 mb-30">
-                                    <!-- Featured Products Item Content Strat -->
-                                    <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Delicious</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
-                                    </div>
-                                    <!-- Featured Products Item Content End -->
-                                    <!-- Featured Products Item Content Strat -->
-                                    <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Chocolate</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
-                                    </div>
-                                    <!-- Featured Products Item Content End -->
-                                    <!-- Featured Products Item Content Strat -->
-                                    <div class="featured-product-item__content">
-                                        <h4 class="featured-product-item__title">Cream</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
-                                    </div>
-                                    <!-- Featured Products Item Content End -->
-                                </div>
-                                <div class="col-md-6 mb-30">
-
                                     <!-- Featured Products Item Image Strat -->
                                     <div class="featured-product-item__image">
                                         <div class="image">
@@ -287,25 +222,74 @@
                                         </div>
                                     </div>
                                     <!-- Featured Products Item Image End -->
-
                                 </div>
                                 <div class="col-md-3 mb-30">
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Flavor</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <h4 class="featured-product-item__title">Milk</h4>
+                                        <p>Onze Millk is een voortreffelijk samengestelde mix die de rijkdom van romige, hoogwaardige melk combineert met de verrukkelijke zoetheid van premium snoep.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Species</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Deze innovatieve combinatie creëert een unieke fusie van de gladde textuur van melk en de levendigheid van snoep, wat een werkelijk bevredigende en gedenkwaardige traktatie creëert.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                     <!-- Featured Products Item Content Strat -->
                                     <div class="featured-product-item__content text-lg-end">
-                                        <h4 class="featured-product-item__title">Delicious</h4>
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id Sunt qui esse pariatur duis deserunt mollit dolore</p>
+                                        <p>Of u nu een speciaal moment viert of gewoon op zoek bent naar een alledaags genot, onze Millk biedt een vreugdevolle manier om te genieten van een harmonieuze mix van smaken in elke slok.</p>
+                                    </div>
+                                    <!-- Featured Products Item Content End -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Featured Products Title End -->
+
+                        <!-- Featured Products Title Strat -->
+                        <div class="swiper-slide featured-product-item">
+                            <div class="row mb-n30">
+                                <div class="col-md-3 mb-30">
+                                    <!-- Featured Products Item Content Strat -->
+                                    <div class="featured-product-item__content">
+                                        <h4 class="featured-product-item__title">Candy</h4>
+                                        <p>Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.</p>
+                                    </div>
+                                    <!-- Featured Products Item Content End -->
+                                    <!-- Featured Products Item Content Strat -->
+                                    <div class="featured-product-item__content">
+                                        <p>Elk stuk is zorgvuldig gemaakt om de essentie van vreugdevolle gedeelde momenten vast te leggen, en belichaamt een gevoel van saamhorigheid door zijn verrukkelijke smaak en luxueuze textuur.</p>
+                                    </div>
+                                    <!-- Featured Products Item Content End -->
+                                    <!-- Featured Products Item Content Strat -->
+                                    <div class="featured-product-item__content">
+                                        <p>Deze voortreffelijke traktatie bevredigt niet alleen uw zoetekauw, maar verbetert ook elke gelegenheid, waardoor het de perfecte keuze is om te genieten met vrienden en geliefden.</p>
+                                    </div>
+                                    <!-- Featured Products Item Content End -->
+                                </div>
+                                <div class="col-md-6 mb-30">
+                                    <!-- Featured Products Item Image Strat -->
+                                    <div class="featured-product-item__image">
+                                        <div class="image">
+                                            <img src="assets/images/bg/about2.png" width="765" height="633" alt="Product">
+                                        </div>
+                                    </div>
+                                    <!-- Featured Products Item Image End -->
+                                </div>
+                                <div class="col-md-3 mb-30">
+                                    <!-- Featured Products Item Content Strat -->
+                                    <div class="featured-product-item__content text-lg-end">
+                                        <h4 class="featured-product-item__title">Milk</h4>
+                                        <p>Onze Millk is een voortreffelijk samengestelde mix die de rijkdom van romige, hoogwaardige melk combineert met de verrukkelijke zoetheid van premium snoep.</p>
+                                    </div>
+                                    <!-- Featured Products Item Content End -->
+                                    <!-- Featured Products Item Content Strat -->
+                                    <div class="featured-product-item__content text-lg-end">
+                                        <p>Deze innovatieve combinatie creëert een unieke fusie van de gladde textuur van melk en de levendigheid van snoep, wat een werkelijk bevredigende en gedenkwaardige traktatie creëert.</p>
+                                    </div>
+                                    <!-- Featured Products Item Content End -->
+                                    <!-- Featured Products Item Content Strat -->
+                                    <div class="featured-product-item__content text-lg-end">
+                                        <p>Of u nu een speciaal moment viert of gewoon op zoek bent naar een alledaags genot, onze Millk biedt een vreugdevolle manier om te genieten van een harmonieuze mix van smaken in elke slok.</p>
                                     </div>
                                     <!-- Featured Products Item Content End -->
                                 </div>
@@ -332,7 +316,7 @@
                     <div class="section-title-09 justify-content-start text-center align-items-center">
                         <span class="section-title-09__subtitle">Zzoet van toen</span>
                         <h1 class="section-title-09__title text-dark">This is for you</h1>
-                        <p class="section-title-09__text text-dark">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+                        <p class="section-title-09__text text-dark">Dit product combineert tijdloze, geliefde smaken met een frisse, eigentijdse touch, en biedt een smaakervaring die het verleden eert en tegelijkertijd het heden verrukt. Perfect voor iedereen die gekoesterde herinneringen wil doen herleven of een nieuwe favoriete lekkernij wil ontdekken, het is een viering van zoetheid die generaties overstijgt.</p>
                         <div class="gift-banner_info">
                             <div class="gift-banner_offer">
                                 <div class="gift-banner_offer__thumb mb-4">
@@ -620,7 +604,7 @@
                         <div class="instagram-two-content">
                             <span class="instagram-two-title">@Instagram</span>
                             <span class="instagram-two-follower">10k Followers</span>
-                            <p class="instagram-two-text">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et</p>
+                            <p class="instagram-two-text">We hebben heel veel volgers over de hele wereld. <br> Dit is onze trots.</p>
                             <a href="#" class="btn btn-outline-white btn-hover-primary rounded-pill">Follow Us</a>
                         </div>
                         <div class="instagram-two-links">
@@ -662,14 +646,14 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="event_image">
-                        <img src="assets/images/bg/sales.jpg" style="width:100%" alt="Event-Image">
+                        <img src="assets/images/bg/video6.jpg" style="width:100%; height:600px;" alt="Event-Image">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="event_content">
                         <h4 class="event_title">50+ Verkooppunten</h4>
                         <span class="event_discount">sale up to 50%</span>
-                        <p class="event_text text-black">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor</p>
+                        <p class="event_text text-black">We bieden geweldige kortingen tot wel 50% op meer dan 50 deelnemende locaties. Het is een fantastische kans voor slimme shoppers om geweldige deals te vinden en verschillende winkels te verkennen.</p>
                         <a href="shop-checkout.html" class="btn btn-outline-dark btn-hover-secondary rounded-pill">purchase now</a>
                     </div>
                 </div>

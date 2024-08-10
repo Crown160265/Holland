@@ -20,7 +20,7 @@
             <!-- Section Title Strat -->
             <div class="section-title-03 text-center max-width-720 mx-auto">
                 <h2 class="section-title-03__title"><span>Zzoet van toen</span></h2>
-                <p style="color: #858585!important;">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt</p>
+                <p style="color: #858585!important;">Dit product combineert tijdloze, geliefde smaken met een frisse, eigentijdse touch, en biedt een smaakervaring die het verleden eert en tegelijkertijd het heden verrukt.</p>
             </div>
             <!-- Section Title End -->
             <div class="featured-product-active">
@@ -98,36 +98,26 @@
                             <h2 class="accordion-header font-black" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <i class="lastudioicon lastudioicon-down-arrow"></i>
-                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                    <span>hoe melk te produceren</span>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body font-black">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.</div>
+                                <div class="accordion-body font-black">
+                                Om melk te produceren, beginnen we met het zorgvuldig melken van gezonde, goed gevoede koeien met behulp van schone, moderne apparatuur. De melk wordt vervolgens gepasteuriseerd om alle bacteriën te verwijderen en gehomogeniseerd voor een gladde, consistente textuur.
+                                Tot slot wordt het verpakt en opgeslagen onder optimale omstandigheden om de versheid en kwaliteit te garanderen voordat het op uw tafel terechtkomt.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <i class="lastudioicon lastudioicon-down-arrow"></i>
-                                    <span>Amet minim mollit non deserunt ullamco.</span>
+                                    <span>hoe melk te verpakken</span>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body font-black">
-                                    Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <i class="lastudioicon lastudioicon-down-arrow"></i>
-                                    <span>Amet minim mollit non deserunt ullamco.</span>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body font-black">
-                                    Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. apibus leo.
+                                Na pasteurisatie en homogenisatie verpakken we de melk in gesteriliseerde containers met behulp van geautomatiseerde machines om de versheid te garanderen. De containers worden vervolgens goed afgesloten om besmetting te voorkomen en voorzien van essentiële informatie. Tot slot wordt de melk opgeslagen in een gekoelde omgeving om de kwaliteit te behouden totdat deze op uw tafel terechtkomt.
                                 </div>
                             </div>
                         </div>

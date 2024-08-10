@@ -3,14 +3,18 @@
 @section('main')
     
     <div class="slider-section slider-active overflow-hidden">
-        <div class="single-slider-04 animation-style-01" style="background-image: url(/assets/images/make-sale/bg.jpg);">
+        <div class="single-slider-04 animation-style-01" style="background-image: url(/assets/images/make-sale/bg4.png);">
             <div class="container">
-                <div class="rolling-text slider-content-04__title text-red">
-                    <span>Sales</span>
-                </div><br>
-                <div class="rolling-text slider-content-04__title text-red">
-                    <span>Point</span>
-                </div>
+                <!-- <div class="col-md-6"> -->
+                    <div class="rolling-text slider-content-04__title text-white">
+                        <span>Sales</span>
+                    </div><br>
+                    <div class="rolling-text slider-content-04__title text-white">
+                        <span>Point</span>
+                    </div>
+                <!-- </div> -->
+                
+
             </div>
         </div>
     </div>
@@ -31,7 +35,7 @@
                         @if($id % 2 == 1)
                             <div class="blog-post row">
                                 <div class="col-md-6">
-                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" alt="Blog-Image"></a>
+                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" alt="SalesPoint-Image"></a>
                                 </div>
                                 <div class="col-md-1"></div>
                                 <div class="col-md-5">
@@ -61,9 +65,8 @@
                                 </div>
                                 <div class="col-md-1"></div>
                                 <div class="col-md-6">
-                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" alt="Blog-Image"></a>
+                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" alt="SalesPoint-Image"></a>
                                 </div>
-                                
                             </div>
                         @endif
                     @endforeach
