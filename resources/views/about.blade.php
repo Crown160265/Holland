@@ -10,7 +10,25 @@
             <div class="swiper-wrapper">
                 <!-- Single Slider Start -->
                 <div class="swiper-slide single-slider-04 animation-style-04" style="height:75vh; background-image: url('/assets/images/bg/redbg2.jpg');">
-                    
+                    <img class="call-to-action-more__images_2" style="left:10px;" src="assets/images/drop-images/01.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_5" style="left:100px;" src="assets/images/drop-images/02.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_3" style="left:200px;" src="assets/images/drop-images/03.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_5" style="left:300px;" src="assets/images/drop-images/04.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_2" style="left:400px;" src="assets/images/drop-images/05.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_4" style="left:500px;" src="assets/images/drop-images/06.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_1" style="left:600px;" src="assets/images/drop-images/07.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_3" style="left:700px;" src="assets/images/drop-images/08.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_5" style="left:800px;" src="assets/images/drop-images/09.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_1" style="left:900px;" src="assets/images/drop-images/10.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_4" style="left:1000px;" src="assets/images/drop-images/11.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_2" style="left:1100px;" src="assets/images/drop-images/12.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_3" style="left:1200px;" src="assets/images/drop-images/13.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_4" style="left:1300px;" src="assets/images/drop-images/14.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_3" style="left:1400px;" src="assets/images/drop-images/15.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_2" style="left:1500px;" src="assets/images/drop-images/16.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_5" style="left:1600px;" src="assets/images/drop-images/17.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_3" style="left:1700px;" src="assets/images/drop-images/18.png" alt="Svg Text">
+                    <img class="call-to-action-more__images_1" style="left:1800px;" src="assets/images/drop-images/19.png" alt="Svg Text">
                     <div class="container">
                         <!-- Slider Content Start -->
                         <div class="slider-content-04">
