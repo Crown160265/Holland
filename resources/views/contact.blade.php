@@ -45,7 +45,7 @@
                             <h5 class="slider-content-04__title_contact text-red">Information</h5>
                         </div>
                         <!-- <h2 class="contact-section2__title">Information</h2> -->
-                        <div class="contact-section2__text text-black">De snoepjes van dit bedrijf zijn absoluut heerlijk! <br>De smaken zijn verrukkelijk en de kwaliteit is ongeëvenaard.<br> Ik kan niet genoeg krijgen van hun verrukkelijke assortiment.<br> Een aanrader voor alle snoepliefhebbers!</div>
+                        <div class="contact-section2__text text-black">Voor vragen of assistentie kunt u gerust contact met ons opnemen via ons contactformulier of via e-mail op uw e-mailadres.<br> Ons klantenserviceteam is beschikbaar van maandag tot en met vrijdag, van 9.00 tot 17.00 uur, om u te helpen met vragen of zorgen.<br> U kunt ons ook rechtstreeks bellen op uw telefoonnummer voor onmiddellijke assistentie.</div>
                         <ul class="contact-section2_list">
                             <li>
                                 <span class="contact-section2_list__icon"><i class="lastudioicon lastudioicon-pin-3-2"></i></span>

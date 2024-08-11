@@ -18,9 +18,10 @@
             </div>
         </div>
     </div>
+    
     <div class="shop-product-section blog-sidebar blog-sidebar-right">
         <div class="row">
-            <div class="col-12 section-padding-04 padding-x-60">
+            <div class="col-12 section-padding-04 padding-x-60 pb-0">
                 <div class="blog-sidebar_ml">
                     @foreach ($salespoints as $salespoint)
                         @php
@@ -35,7 +36,7 @@
                         @if($id % 2 == 1)
                             <div class="blog-post row">
                                 <div class="col-md-6">
-                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" alt="SalesPoint-Image"></a>
+                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" style="border-radius:50px;" alt="SalesPoint-Image"></a>
                                 </div>
                                 <div class="col-md-1"></div>
                                 <div class="col-md-5">
@@ -65,9 +66,10 @@
                                 </div>
                                 <div class="col-md-1"></div>
                                 <div class="col-md-6">
-                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" alt="SalesPoint-Image"></a>
+                                    <a href="/salespoint/{{$titletolow}}" class="blog-post_thumb"><img src="{{$imageUrl}}" style="border-radius:50px;" alt="SalesPoint-Image"></a>
                                 </div>
                             </div>
+                            
                         @endif
                     @endforeach
                 </div>
