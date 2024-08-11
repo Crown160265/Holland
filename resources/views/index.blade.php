@@ -641,7 +641,7 @@
 
     
     <!-- Event Section Strat -->
-    <div class="section-padding-03 event background-red">
+    <div class="section-padding-03 event background-blue">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">

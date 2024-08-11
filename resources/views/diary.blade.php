@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-    <div class="section-padding-01 bg-color-01" style="background-image: url(/assets/images/bg/web-bg.png);background-size: cover; background-repeat:no-repeat; height:1000px;">
+    <div class="section-padding-01 bg-color-01" style="background-image: url(/assets/images/bg/web-bg.png);background-size: cover; background-repeat:no-repeat;">
         <div class="container">
             <!-- Section Title Strat -->
             <div class="section-title-03 text-center max-width-720 mx-auto">
@@ -26,7 +26,7 @@
             <div class="featured-product-active">
                 <div class="swiper">
                     <div class="swiper-wrapper">
-                        @foreach ($products->chunk(3) as $chunk)
+                        @foreach ($products->chunk(6) as $chunk)
                             <div class="swiper-slide">
                                 <div class="row g-6 gy-xxl-16 gx-xxl-10">
                                     @foreach ($chunk as $product)
@@ -78,12 +78,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-5">
                 <div class="why-choose-images">
-                    <!-- <div class="why-choose-image1"> -->
-                        <img src="{{asset('/assets/images/make-sale/makemilk.jpg')}}" style="width:100%; border-radius: 50px;" alt="Image">
-                    <!-- </div> -->
-                    <!-- <div class="why-choose-image2">
-                        <img src="{{asset('/assets/images/product/how_make_355-457.jpg')}}" alt="Image">
-                    </div> -->
+                    <img src="{{asset('/assets/images/make-sale/makemilk.jpg')}}" style="width:100%; border-radius: 50px;" alt="Image">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-7 align-self-center">
