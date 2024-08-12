@@ -16022,7 +16022,7 @@ div.swiper-slider-img-div-1 {
 }
 div.sticky-mark {
   position: fixed;
-  left: 20px;
+  right: 60px;
   bottom: 30px;
   z-index: 99;
   width: 100px;
