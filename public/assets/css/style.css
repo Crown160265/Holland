@@ -291,7 +291,7 @@ textarea.form-field:focus {
 .custom-container-three {
   padding: 0 60px 0 60px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (max-width: 992px) and (max-width: 1199px) {
   .custom-container-three {
     padding: 0 40px 0 40px;
   }
@@ -465,11 +465,17 @@ textarea.form-field:focus {
     padding-bottom: 60px;
   }
 }
-.padding-x-60 {
-  padding-left: 60px;
+.padding-x {
+  padding-left: 120px;
   padding-right: 120px;
 }
 
+@media only screen and (max-width: 991px) {
+  .padding-x {
+    padding-left: 30px;
+  padding-right: 30px;
+  }
+}
 .section-padding-05 {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -15927,11 +15933,17 @@ textarea.form-control {
 
 .header-self-top:not(.sticky) {
     background-image: url('/assets/images/header/flag.png')!important;
-    background-size: auto 100%!important;
+    background-size: auto 100% !important;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important; */
-    height: 25vh!important;
+    height: 25vh !important;
     padding: 8.5vh 0 9vh 0!important;
     border: none;
+}
+@media only screen and (max-width: 991px){
+  .header-self-top:not(.sticky) {
+    height: 17vh !important;
+    padding: 5.5vh 0 9vh 0 !important;
+  }
 }
 
 .border-three-color {
@@ -15945,6 +15957,11 @@ textarea.form-control {
 
 .white-logo {
   height: 7.5vh;
+}
+@media only screen and (max-width: 991px){
+  .white-logo {
+    height: 5.5vh;
+  }
 }
 
 .header-logo {
@@ -15976,12 +15993,12 @@ textarea.form-control {
 }
 
 .sticky {
-  padding: 42px!important;
+  padding: 24px!important;
 }
 
 @media only screen and (max-width: 720px){
   .header-sticky-03.sticky {
-    background-color: #d00018!important;
+    background-color: #d00018 !important;
   }
 }
 
@@ -15991,6 +16008,7 @@ textarea.form-control {
     padding: 10px;
     border: 2px solid #ffffff;
 }
+
 .header-meta__action li button i {
   font-weight: 700;
   font-size: 3vh;

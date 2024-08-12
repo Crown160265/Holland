@@ -18,9 +18,9 @@
     </div>
     
     <div class="shop-product-section blog-sidebar blog-sidebar-right">
-        <div class="row">
-            <div class="col-12 section-padding-04 padding-x-60 pb-0">
-                <div class="blog-sidebar_ml">
+        <div>
+            <div class="section-padding-04 padding-x pb-0">
+                <div>
                     @foreach ($salespoints as $salespoint)
                         @php
                             $id = $salespoint->id;

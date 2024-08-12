@@ -1,9 +1,7 @@
 @extends('layouts.main')
 
 @section('main')
-
-
-    <!-- Slider Section Strat -->
+    
     <div class="slider-section slider-active overflow-hidden">
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -20,18 +18,12 @@
                 <!-- Single Slider Start -->
                 <div class="swiper-slide single-slider-04 animation-style-04" style="background-image: url(assets/images/bg/haribo3_rr.png);">
                     <div class="container position-top">
-
-                        <!-- Slider Content Start -->
                         <div class="slider-content-04 position">
                             <h1 class="slider-content-04__title text-white"> Altijd lekker samen genieten</h1>
                         </div>
-                        <!-- Slider Content Start -->
-
-
                     </div>
                 </div>
                 <!-- Single Slider End -->
-
             </div>
             <div class="slider-arrow slider-arrow-four">
                 <div class="swiper-button-next"><i class="lastudioicon-left-arrow"></i></div>
@@ -39,9 +31,7 @@
             </div>
         </div>
     </div>
-    <!-- Slider Section End -->
     
-
     <!-- Best Service Section Strat -->
     <div class="best-service section-padding-03">
 
@@ -408,7 +398,7 @@
             <img class="" src="{{asset('assets/images/gadget/candy.png')}}" alt="Shape-Image">
         </div>
         <div class="testimonial-five_shape02">
-            <img class="rotate-30-left" src="{{asset('assets/images/gadget/candy1.png')}}" alt="Shape-Image">
+            <img src="{{asset('assets/images/gadget/candy1.png')}}" alt="Shape-Image">
         </div>
     </div>
     <!-- Testimonial Five Section End -->

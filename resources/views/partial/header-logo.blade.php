@@ -1,6 +1,6 @@
  <!-- Header Start -->
     <div class="header-section header-transparent header-sticky-03 header-self-top">
-        <div class="container position-relative">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-xl-12 d-none d-lg-block">
                     <!-- Header Menu Start -->
@@ -25,12 +25,12 @@
                     </div>
                     <!-- Header Menu End -->
                 </div>
-                <div class="col-md-10 col-sm-8 col-xs-8 d-lg-none d-xl-none">
+                <div class="col-md-10 col-10 d-lg-none d-xl-none">
                     <a href="/">
                         <img class="white-logo" src="{{asset('assets/images/logo/logo.jpg')}}" alt="Logo">
                     </a>
                 </div>
-                <div class="col-lg-1 col-xl-2 col-2 col-md-2">
+                <div class="col-2 col-md-2">
                     <!-- Header Meta Start -->
                     <div class="header-meta">
                         <ul class="header-meta__action header-meta__action-03 d-flex justify-content-end">
