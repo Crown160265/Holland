@@ -11,8 +11,9 @@ class ProductController extends Controller {
 
     public function home() {
         $candyProducts = Product::where('type', 'candy')->get();
+        $diaryProducts = Product::where('type', 'diary')->get();
 
-        return view('index', ['candyProducts'=>$candyProducts]);
+        return view('index', ['candyProducts'=>$candyProducts, 'diaryProducts'=>$diaryProducts]);
     }
 
     public function about() {

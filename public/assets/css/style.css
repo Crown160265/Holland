@@ -8648,8 +8648,9 @@ textarea.form-control {
 }
 @media only screen and (max-width: 479px) {
   .instagram-two-grid .instagram-two-thumb:nth-child(2n+3) {
-    grid-column: 1;
+    grid-column: 1/-1;
     grid-row: 4;
+    height: 180px;
   }
 }
 .instagram-two-grid .instagram-two-thumb:nth-child(2n+4) {
@@ -16221,4 +16222,15 @@ div.product-additional-info {
 
 .active {
   color: blue;
+}
+
+.about-image {
+  width: 765px; 
+  height: 633px;
+}
+@media only screen and (max-width: 479px) {
+  .about-image {
+    width: 365px; 
+    height: 303px;
+  }
 }

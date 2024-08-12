@@ -78,7 +78,7 @@
                         <div class="features-card-item background-blue">
                             <div class="features-card-item__image">
                                 <a href="/products/Cinnamon-Pillows">
-                                    <img src="{{asset('assets/images/cinnamon-pillows/PKANEELDROP.jpg')}}" alt="Features Card" width="460" height="516">
+                                    <img src="{{asset('assets/images/cinnamon-pillows/PSTROOPWATELS.jpg')}}" alt="Features Card" width="460" height="516">
                                 </a>
                             </div>
                             <div class="features-card-item__content text-center">

@@ -33,14 +33,12 @@
                                 <div class="d-flex footer-widget__menu">
                                     <ul class="footer-widget__link">
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="/">Kermis snoepfabriek</a></li>
-                                        <li><a href="/">Nieuw</a></li>
                                         <li><a href="/">Assortment</a></li>
+                                        <li><a href="/salespoint">Verkooppunten</a></li>
                                     </ul>
                                     <ul class="footer-widget__link">
-                                        <li><a href="/">Verkooppunten</a></li>
-                                        <li><a href="/">Team Holland Foodz</a></li>
-                                        <li><a href="/">Contact</a></li>
+                                        <li><a href="/collection/candy">Assortment Candy</a></li>
+                                        <li><a href="/collection/diary">Assortment Diary</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -55,10 +53,8 @@
                                 <h4 class="footer-widget__title">Information</h4>
 
                                 <ul class="footer-widget__link">
-                                    <li><a href="/">About Us</a></li>
-                                    <li><a href="/">Contact Us</a></li>
-                                    <li><a href="/">Latest Post</a></li>
-                                    <li><a href="/">Selling Tips</a></li>
+                                    <!-- <li><a href="/">About Us</a></li> -->
+                                    <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Widget End -->

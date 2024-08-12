@@ -166,7 +166,7 @@
                                     <!-- Featured Products Item Image Strat -->
                                     <div class="featured-product-item__image">
                                         <div class="image">
-                                            <img src="assets/images/bg/about1.png" width="765" height="633" alt="Product">
+                                            <img src="assets/images/bg/about1.png" class="about-image" alt="Product">
                                         </div>
                                     </div>
                                     <!-- Featured Products Item Image End -->
@@ -218,7 +218,7 @@
                                     <!-- Featured Products Item Image Strat -->
                                     <div class="featured-product-item__image">
                                         <div class="image">
-                                            <img src="assets/images/bg/about.png" width="765" height="633" alt="Product">
+                                            <img src="assets/images/bg/about.png" class="about-image"  alt="Product">
                                         </div>
                                     </div>
                                     <!-- Featured Products Item Image End -->
@@ -270,7 +270,7 @@
                                     <!-- Featured Products Item Image Strat -->
                                     <div class="featured-product-item__image">
                                         <div class="image">
-                                            <img src="assets/images/bg/about2.png" width="765" height="633" alt="Product">
+                                            <img src="assets/images/bg/about2.png" class="about-image"  alt="Product">
                                         </div>
                                     </div>
                                     <!-- Featured Products Item Image End -->
@@ -355,7 +355,6 @@
                         @foreach($candyProducts as $product)
                             @php
                                 $candyProductName = $product->name;
-                                $candyProductPrice = $product->price;
                                 $candyProductCategory = $product->category;
                                 $candyProductImageUrl = '/assets/images/' . strtolower(str_replace(" ", "-", $candyProductCategory)) . '/' . $candyProductName . '.jpg'; 
                             @endphp
@@ -384,7 +383,6 @@
                                             <div class="product-item-style-01__rating">
                                                 <div class="product-item-style-01__star-rating" style="width: 100%;"></div>
                                             </div>
-                                            <span class="product-item-style-01__price ">{{$candyProductPrice}}</span>
                                         </div>
                                         <div class="product-item-style-01__cart">
                                             <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
@@ -436,134 +434,45 @@
             <div class="product-active">
                 <div class="swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <!-- Product Item Strat -->
-                            <div class="product-item-style-01">
-                                <div class="product-item-style-01__image">
-                                    <a href="single-product.html"><img src="assets/images/product/milk.jpg" alt="Product"></a>
-                                </div>
-                                <ul class="product-item-style-01__meta">
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
-                                    </li>
-                                </ul>
-                                <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
-                                    <div class="product-item-style-01__content">
-                                        <h5 class="product-item-style-01__title"><a href="single-product.html">Sesame Buns</a></h5>
-                                        <div class="product-item-style-01__rating">
-                                            <div class="product-item-style-01__star-rating" style="width: 100%;"></div>
+                        @foreach($diaryProducts as $product)
+                            @php
+                                $diaryProductName = $product->name;
+                                $diaryProductImageUrl = '/assets/images/diary/' . $diaryProductName . '.jpg'; 
+                            @endphp
+                            <div class="swiper-slide">
+                                <!-- Product Item Strat -->
+                                <div class="product-item-style-01">
+                                    <div class="product-item-style-01__image">
+                                        <a href="/product/{{$diaryProductName}}">
+                                            <img src="{{$diaryProductImageUrl}}" style="height:auto; aspect-ratio:1/1;" alt="Product">
+                                        </a>
+                                    </div>
+                                    <ul class="product-item-style-01__meta">
+                                        <li class="product-item-style-01__meta-action">
+                                            <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
+                                        </li>
+                                        <li class="product-item-style-01__meta-action">
+                                            <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
+                                        </li>
+                                        <li class="product-item-style-01__meta-action">
+                                            <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
+                                        </li>
+                                    </ul>
+                                    <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
+                                        <div class="product-item-style-01__content">
+                                            <h5 class="product-item-style-01__title"><a href="{{$diaryProductImageUrl}}">{{$diaryProductName}}</a></h5>
+                                            <div class="product-item-style-01__rating">
+                                                <div class="product-item-style-01__star-rating" style="width: 100%;"></div>
+                                            </div>
                                         </div>
-                                        <span class="product-item-style-01__price ">$4.99</span>
-                                    </div>
-                                    <div class="product-item-style-01__cart">
-                                        <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Item End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Product Item Strat -->
-                            <div class="product-item-style-01">
-                                <div class="product-item-style-01__image">
-                                    <a href="single-product.html"><img src="assets/images/product/milk2.jpg" alt="Product"></a>
-                                </div>
-                                <ul class="product-item-style-01__meta">
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
-                                    </li>
-                                </ul>
-                                <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
-                                    <div class="product-item-style-01__content">
-                                        <h5 class="product-item-style-01__title"><a href="single-product.html">Spanish Bread</a></h5>
-                                        <div class="product-item-style-01__rating">
-                                            <div class="product-item-style-01__star-rating" style="width: 100%;"></div>
+                                        <div class="product-item-style-01__cart">
+                                            <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
                                         </div>
-                                        <span class="product-item-style-01__price ">$4.99</span>
-                                    </div>
-                                    <div class="product-item-style-01__cart">
-                                        <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
                                     </div>
                                 </div>
+                                <!-- Product Item End -->
                             </div>
-                            <!-- Product Item End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Product Item Strat -->
-                            <div class="product-item-style-01">
-                                <div class="product-item-style-01__image">
-                                    <a href="single-product.html"><img src="assets/images/product/milk.jpg" alt="Product"></a>
-                                </div>
-                                <ul class="product-item-style-01__meta">
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
-                                    </li>
-                                </ul>
-                                <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
-                                    <div class="product-item-style-01__content">
-                                        <h5 class="product-item-style-01__title"><a href="single-product.html">Pumpkin Pastry</a></h5>
-                                        <div class="product-item-style-01__rating">
-                                            <div class="product-item-style-01__star-rating" style="width: 100%;"></div>
-                                        </div>
-                                        <span class="product-item-style-01__price ">$4.99</span>
-                                    </div>
-                                    <div class="product-item-style-01__cart">
-                                        <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Item End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Product Item Strat -->
-                            <div class="product-item-style-01">
-                                <div class="product-item-style-01__image">
-                                    <a href="single-product.html"><img src="assets/images/product/milk2.jpg" alt="Product"></a>
-                                </div>
-                                <ul class="product-item-style-01__meta">
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
-                                    </li>
-                                    <li class="product-item-style-01__meta-action">
-                                        <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
-                                    </li>
-                                </ul>
-                                <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
-                                    <div class="product-item-style-01__content">
-                                        <h5 class="product-item-style-01__title"><a href="single-product.html">Chocolate Donut</a></h5>
-                                        <div class="product-item-style-01__rating">
-                                            <div class="product-item-style-01__star-rating" style="width: 100%;"></div>
-                                        </div>
-                                        <span class="product-item-style-01__price ">$4.99</span>
-                                    </div>
-                                    <div class="product-item-style-01__cart">
-                                        <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Product Item End -->
-                        </div>
+                        @endforeach
                     </div>
 
                     <div class="swiper-button-next"><i class="lastudioicon-arrow-right"></i></div>
