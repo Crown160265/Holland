@@ -4,12 +4,14 @@
     
     <div class="slider-section slider-active overflow-hidden">
         <div class="single-slider-04 animation-style-01" style="background-image: url(/assets/images/make-sale/bg4.png);">
-            <div class="container">
-                <div class="rolling-text slider-content-04__title text-white">
-                    <span>Sales</span>
-                </div><br>
-                <div class="rolling-text slider-content-04__title text-white">
-                    <span>Point</span>
+            <div class="container position-top">
+                <div>
+                    <div class="rolling-text slider-content-04__title text-white">
+                        <span>Sales</span>
+                    </div><br>
+                    <div class="rolling-text slider-content-04__title text-white">
+                        <span>Point</span>
+                    </div>
                 </div>
             </div>
         </div>

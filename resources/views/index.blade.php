@@ -9,34 +9,21 @@
             <div class="swiper-wrapper">
                 <!-- Single Slider Start -->
                 <div class="swiper-slide single-slider-04 animation-style-04" style="background-image: url(assets/images/bg/haribo2_rrrr.png);">
-                    <div class="container">
-
-                        <!-- Slider Content Start -->
+                    <div class="container position-top">
                         <div class="slider-content-04">
-                            <h1 class="slider-content-04__title text-white">Holland FOODZ</h1>
+                            <div class="slider-content-04__title text-white">Holland FOODZ</div>
                         </div>
-                        <!-- Slider Content Start -->
-
-                        <!-- Slider Images Start -->
-                        <div class="slider-images-02">
-                            <!-- <img class="slider-images-02__shape-01" src="assets/images/landing/range-1.png" alt="Shape"> -->
-                            <div class="slider-images-02__image mx-auto">
-                                <!-- <img src="assets/images/landing/range-1.png" alt="Slider Product"> -->
-                            </div>
-                        </div>
-                        <!-- Slider Images Start -->
                     </div>
                 </div>
                 <!-- Single Slider End -->
 
                 <!-- Single Slider Start -->
                 <div class="swiper-slide single-slider-04 animation-style-04" style="background-image: url(assets/images/bg/haribo3_rr.png);">
-                    <div class="container">
+                    <div class="container position-top">
 
                         <!-- Slider Content Start -->
-                        <div class="slider-content-04">
+                        <div class="slider-content-04 position">
                             <h1 class="slider-content-04__title text-white"> Altijd lekker samen genieten</h1>
-                            <a class="slider-content-07__btn btn slider-btn-02 rounded-pill" href="{{url('/about')}}">About us</a>
                         </div>
                         <!-- Slider Content Start -->
 

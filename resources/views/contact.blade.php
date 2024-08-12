@@ -2,14 +2,12 @@
 @extends('layouts.main')
 
 @section('main')
-<div class="breadcrumb background-red" style="height: 25vh;">
-    </div>
-   
+
     <div class="slider-section slider-active overflow-hidden">
         <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Single Slider Start -->
-                <div class="swiper-slide single-slider-04 animation-style-04" style="height:75vh; background-image: url('/assets/images/bg/redbg6.jpg');">
+                <div class="swiper-slide single-slider-04 animation-style-04" style="background-image: url('/assets/images/bg/redbg6.jpg');">
                     @php
                         
                         for($i = 1; $i <=20; $i++) {
@@ -22,7 +20,7 @@
                         }
                         
                     @endphp
-                    <div class="container">
+                    <div class="container position-top">
                         <!-- Slider Content Start -->
                         <div class="slider-content-04">
                             <h1 class="slider-content-04__title text-white">Contact Us</h1>
