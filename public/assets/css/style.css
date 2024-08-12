@@ -2849,6 +2849,7 @@ textarea.form-control {
 /*----------------------------------------*/
 .offcanvas-menu {
   width: 320px;
+  height:40%;
   z-index: 999;
 }
 .offcanvas-menu .offcanvas-header .btn-close {
@@ -7010,29 +7011,44 @@ textarea.form-control {
     transform: translateY(-100vh); /* Start at the top */
   }
   50% {
-    transform: translateY(-30vh);
+    transform: translateY(10vh);
   }
   70% {
-    transform: translateY(-45vh);
+    transform: translateY(-5vh);
   }
   85% {
-    transform: translateY(-30vh);
+    transform: translateY(10vh);
   }
   95% {
-    transform: translateY(-37vh);
+    transform: translateY(3vh);
   }
   100% {
-    transform: translateY(-30vh); /* Move to the bottom */
+    transform: translateY(10vh); /* Move to the bottom */
   }
 }
 
 .call-to-action-diary__images_1 {
-  position: absolute;
-  left: 1000px;
+  /* position: absolute; */
+  top: 200px;
   width: 600px;
   animation: fallUpToDown 2.2s linear forwards;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1570px) {
+  .call-to-action-diary__images_1 {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call-to-action-diary__images_1 {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .call-to-action-diary__images_1 {
+    width: 200px;
+  }
+}
 
 @keyframes rollIn {
   0% {
@@ -16233,4 +16249,15 @@ div.product-additional-info {
     width: 365px; 
     height: 303px;
   }
+}
+
+.position {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px){
+  .position {
+    align-items: end;
+  } 
 }

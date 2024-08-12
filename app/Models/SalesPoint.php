@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class SalesPoint extends Model
 {
     use HasFactory;
+    public $timestamps = false;
 
     protected $table = 'salespoints_table';
 

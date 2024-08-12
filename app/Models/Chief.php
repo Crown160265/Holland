@@ -9,6 +9,7 @@ class Chief extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
     protected $table = 'chiefs';
 
     protected $fillable = ['avatar', 'name', 'roll'];

@@ -5,14 +5,10 @@
         </div>
         <div class="offcanvas-body">
             <ul class="mobile-primary-menu">
-                <li><a class="menu-item-link" href="/"><span>Home</span></a>
-                </li>
-                <li><a class="menu-item-link" href="/"><span>Assortment</span></a>
-                    <ul class="sub-menu">
-                        <li><a class="sub-item-link" href="/collection/candy"><span>Candy</span></a></li>
-                        <li><a class="sub-item-link" href="/collection/diary"><span>Diary</span></a></li>
-                    </ul>
-                </li>
+                <li><a class="menu-item-link" href="/"><span>Home</span></a></li>
+                <li><a class="menu-item-link" href="/"><span>Assortiment</span></a></li>
+                <li><a class="menu-item-link" style="left:20px;" href="/collection/candy"><span>Candy</span></a></li>
+                <li><a class="menu-item-link" style="left:20px;" href="/collection/diary"><span>Diary</span></a></li>
                 <li><a class="menu-item-link" href="/salespoint"><span>Verkooppunten</span></a></li>
                 <li><a class="menu-item-link" href="/contact"><span>Contact</span></a></li>
             </ul>

@@ -4,14 +4,18 @@
     
     <div class="slider-section slider-active overflow-hidden">
         <div class="single-slider-02 animation-style-01" style="background-image: url(/assets/images/bg/diarybackground.jpg);">
-            <div class="container">
-                <div class="rolling-text slider-content-04__title text-white">
-                    <span>O</span><span>u</span><span>r</span> <span>M</span><span>i</span><span>l</span><span>k</span>
-                </div><br>
-                <div class="rolling-text slider-content-04__title text-white">
-                    <span>D</span><span>e</span><span>l</span><span>i</span><span>c</span><span>i</span><span>o</span><span>u</span><span>s</span>
+            <div class="container row position">
+                <div class="col-7">
+                    <div class="rolling-text slider-content-04__title text-white  d-flex justify-content-center">
+                        <span>O</span><span>u</span><span>r</span> <span>M</span><span>i</span><span>l</span><span>k</span>
+                    </div>
+                    <div class="rolling-text slider-content-04__title text-white d-flex justify-content-center">
+                        <span>D</span><span>e</span><span>l</span><span>i</span><span>c</span><span>i</span><span>o</span><span>u</span><span>s</span>
+                    </div>
                 </div>
-                <img class="call-to-action-diary__images_1" src="/assets/images/bg/milk3.png" alt="Features Card">
+                <div class="col-5 d-flex justify-content-end">
+                    <img class="call-to-action-diary__images_1" src="/assets/images/bg/milk3.png" alt="Features Card">
+                </div>
             </div>
         </div>
     </div>
