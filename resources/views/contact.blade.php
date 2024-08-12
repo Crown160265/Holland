@@ -47,15 +47,15 @@
                         <ul class="contact-section2_list">
                             <li>
                                 <span class="contact-section2_list__icon"><i class="lastudioicon lastudioicon-pin-3-2"></i></span>
-                                <span class="contact-section2_list__text text-black">6391 Elgin St. Celina, Delaware 10299 <br> 2464 Royal Ln. Mesa, New Jersey 45463</span>
+                                <span class="contact-section2_list__text text-black">Karolusstraat <br> 4903 RJ Oosterhout</span>
                             </li>
                             <li>
                                 <span class="contact-section2_list__icon"><i class="lastudioicon lastudioicon-phone-2"></i></span>
-                                <span class="contact-section2_list__text text-black">+880-123-456789 <br> +880-123-456789</span>
+                                <span class="contact-section2_list__text text-black">+31(0)162 744 744</span>
                             </li>
                             <li>
                                 <span class="contact-section2_list__icon"><i class="lastudioicon lastudioicon-mail"></i></span>
-                                <span class="contact-section2_list__text text-black">info@admin.com <br> test.mail.com</span>
+                                <span class="contact-section2_list__text text-black">info@hollandfoodz.com</span>
                             </li>
                         </ul>
                     </div>
@@ -70,25 +70,43 @@
                             <div class="row">
                                 <div class="col-sm-6 col-6 form-p">
                                     <div class="form-group">
-                                        <label>First Name*</label>
+                                        <label>Voomaam*</label>
                                         <input class="form-field" type="text" name="name">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-6 form-p">
                                     <div class="form-group">
-                                        <label>Last Name*</label>
+                                        <label>Achtemaam*</label>
+                                        <input class="form-field" type="text" name="lastname">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6 form-p">
+                                    <div class="form-group">
+                                        <label>Bedrijf*</label>
+                                        <input class="form-field" type="text" name="name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6 form-p">
+                                    <div class="form-group">
+                                        <label>Telefoon*</label>
+                                        <input class="form-field" type="text" name="lastname">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6 form-p">
+                                    <div class="form-group">
+                                        <label>E-mail*</label>
+                                        <input class="form-field" type="text" name="name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6 form-p">
+                                    <div class="form-group">
+                                        <label>Onderwerp*</label>
                                         <input class="form-field" type="text" name="lastname">
                                     </div>
                                 </div>
                                 <div class="col-md-12 form-p">
                                     <div class="form-group">
-                                        <label>Email Address*</label>
-                                        <input class="form-field" type="email" name="email">
-                                    </div>
-                                </div>
-                                <div class="col-md-12 form-p">
-                                    <div class="form-group">
-                                        <label>Message*</label>
+                                        <label>Bericht*</label>
                                         <textarea class="form-control text-area" name="message"></textarea>
                                     </div>
                                 </div>
