@@ -16271,3 +16271,13 @@ div.product-additional-info {
     padding-top: 150px;
   } 
 }
+
+.position-top1 {
+  padding-top: 0px;
+}
+
+@media only screen and (max-width: 1200px){
+  .position-top1 {
+    padding-top: 100px;
+  } 
+}
