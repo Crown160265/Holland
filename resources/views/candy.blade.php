@@ -117,7 +117,6 @@
                                     @foreach ($chunk as $product)
                                         @php
                                             $productName = $product->name;
-                                            $productPrice = $product->price;
                                             $productCategory = $product->category;
                                             $imageUrl = '/assets/images/' . strtolower(str_replace(" ", "-", $productCategory)) . '/' . $productName . '.jpg'; 
                                         @endphp
@@ -141,7 +140,6 @@
                                                 <div class="product-item__rating">
                                                     <div class="product-item__star-rating" style="width: 100%;"></div>
                                                 </div>
-                                                <span class="product-item__price fs-4">${{$productPrice}}</span>
                                             </div>
                                         </div>
                                     <!-- Product Item End -->
