@@ -532,7 +532,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="event_image">
-                        <img src="assets/images/bg/salespoint1.jpg" style="width:100%; height:600px;" alt="Event-Image">
+                        <img src="assets/images/bg/salespoint1.jpg" style="width:100%;" alt="Event-Image">
                     </div>
                 </div>
                 <div class="col-md-6">

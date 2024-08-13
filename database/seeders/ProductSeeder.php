@@ -20,8 +20,8 @@ class ProductSeeder extends Seeder
         /* candyId = 1 */
 
         Product::create([
-            'name' => 'KANEELHOMPEN',
-            'price' => 4.99,
+            'name' => 'OOSTERBOTERWAFELT',
+            'price' => 7.55,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
             'temp' => '',
@@ -39,9 +39,10 @@ class ProductSeeder extends Seeder
         
         /* candyId = 3 */
         
+        
         Product::create([
-            'name' => 'OOSTERBOTERWAFELT',
-            'price' => 7.55,
+            'name' => 'KANEELHOMPEN',
+            'price' => 4.99,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
             'temp' => '',
@@ -420,8 +421,8 @@ class ProductSeeder extends Seeder
         /* diaryId = 1 */
         
         Product::create([
-            'name' => 'HOLLANDMELK',
-            'price' => 10.3,
+            'name' => 'VOLLEMELK',
+            'price' => 4.2,
             'type' => 'diary',
             'category' => '',
             'temp' => '',
@@ -480,8 +481,8 @@ class ProductSeeder extends Seeder
         /* diaryId = 7 */
         
         Product::create([
-            'name' => 'VOLLEMELK',
-            'price' => 4.2,
+            'name' => 'HOLLANDMELK',
+            'price' => 10.3,
             'type' => 'diary',
             'category' => '',
             'temp' => '',

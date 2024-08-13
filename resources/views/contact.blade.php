@@ -130,7 +130,7 @@
     <div class="section">
         <!-- Google Map Area Start -->
         <div class="google-map-area w-100" data-aos="fade-up" data-aos-duration="1000">
-            <iframe class="contact-map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Netherland,%20Western%20Europe+(Netherland)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <iframe class="contact-map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Karolusstraat,%20Netherland+(Your%20Business%20Name)&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </div>
         <!-- Google Map Area Start -->
     </div>
