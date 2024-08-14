@@ -38,7 +38,11 @@
                 <div class="col-lg-5">
                     <div class="product-desc-content">
                         <h5 class="product-desc-title">We Love {{$singleProductName}}</h5>
-                        <p class="product-desc-text">Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo. Vestibulum sit amet ipsum vitae mauris mattis vulputate lacinia nec neque. Aenean quis consectetur nisi, ac interdum elit</p>
+                        @if($type=="candy")
+                            <p class="product-desc-text">Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.</p>
+                        @else 
+                            <p class="product-desc-text">Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.</p>
+                        @endif
                     </div>
 
                     <ul class="product-meta-custom">
