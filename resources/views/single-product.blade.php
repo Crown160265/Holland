@@ -15,6 +15,7 @@
                 $singleProductName = $singleProduct->name;
                 $singleProductPrice = $singleProduct->price;
                 $singleProductCategory = $singleProduct->category;
+                $singleProductDesc = $singleProduct->description;
                 if($type=="diary") {
                     $singleImageUrl = '/assets/images/diary/' . $singleProductName . '.jpg'; 
                     $singleProductCategory = 'Milk';
@@ -38,20 +39,16 @@
                 <div class="col-lg-5">
                     <div class="product-desc-content">
                         <h5 class="product-desc-title">We Love {{$singleProductName}}</h5>
-                        @if($type=="candy")
-                            <p class="product-desc-text">Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.</p>
-                        @else 
-                            <p class="product-desc-text">Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.</p>
-                        @endif
+                        <p class="product-desc-text">{{$singleProductDesc}}</p>
                     </div>
 
                     <ul class="product-meta-custom">
                         <li class="product-meta-wrapper">
                             <span class="product-meta-name">SKU:</span>
-                            <span class="product-meta-detail">REF. LA-199</span>
+                            <span class="product-meta-detail">REF. LA-{{$singleProductId}}</span>
                         </li>
                         <li class="product-meta-wrapper">
-                            <span class="product-meta-name">category:</span>
+                            <span class="product-meta-name">Category:</span>
                             <span class="product-meta-detail">{{$singleProductCategory}}</span>
                         </li>
                         <li class="product-meta-wrapper">
@@ -68,18 +65,111 @@
                 </div>
                
             </div>
-            <div class="row section-margin">
+            <div class="row section-padding-02">
                 <div class="col-lg-12 single-product-tab">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="review-tab" data-bs-toggle="tab" href="#connect-4" role="tab" aria-selected="false">Additional information</a>
+                            <a class="nav-link active" id="profile-tab" data-bs-toggle="tab" href="#connect-2" role="tab" aria-selected="false">Reviews ({{$customerReviews->count()}})</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#connect-2" role="tab" aria-selected="false">Reviews (1)</a>
+                            <a class="nav-link" id="review-tab" data-bs-toggle="tab" href="#connect-4" role="tab" aria-selected="false">Additional information</a>
                         </li>
                     </ul>
                     <div class="tab-content mb-text" id="myTabContent">
-                        <div class="tab-pane fade show active" id="connect-4" role="tabpanel" aria-labelledby="review-tab">
+                        <div class="tab-pane fade show active" id="connect-2" role="tabpanel" aria-labelledby="profile-tab">
+                            <!-- Start Single Content -->
+                            <div class="review text-black">
+
+                            @foreach($customerReviews as $review)
+                                @php
+                                    $name = $review->name;
+                                    $nameParts = explode(" ", $name);
+                                    $firstLetter = strtoupper(substr($nameParts[0], 0, 1));
+                                    $imageName = $firstLetter;
+                                    if(count($nameParts) == 2) {
+                                        $lastLetter = strtoupper(substr($nameParts[1], 0, 1));
+                                        $imageName = $imageName . '.' . $lastLetter;
+                                    }
+                                    $score = $review->score / 5 * 100;
+                                    $comment = $review->comment;
+                                @endphp
+                                <!-- Review Top Start -->
+                                <div class="review-top d-flex mb-4 align-items-center">
+
+                                    <!-- Review Thumb Start -->
+                                    <div  class="review_thumb_1">
+                                        <div  class="review_thumb_2 d-flex align-items-center justify-content-center">
+                                            <span>{{$imageName}}</span>
+                                        </div>
+                                    </div>
+                                    <!-- Review Thumb End -->
+
+                                    <!-- Review Details Start -->
+                                    <div class="review_details ms-3">
+                                        <!-- Rating Start -->
+                                        <div class="review-rating mb-2">
+                                            <span class="review-rating-bg">
+                                                <span class="review-rating-active" style="width: {{$score}}%"></span>
+                                            </span>
+                                        </div>
+                                        <!-- Rating End -->
+                                        <!-- Review Title & Date Start -->
+                                        <div class="review-title-date d-flex">
+                                            <h5 class="title me-1">{{$name}} - </h5>
+                                            <p>{{$review->created_at->format('F d, Y')}}</p>
+                                        </div>
+                                        <!-- Review Title & Date End -->
+                                        <p>{{$comment}}</p>
+                                    </div>
+                                    <!-- Review Details End -->
+
+                                </div>
+                                <!-- Review Top End -->
+                            @endforeach
+                                <!-- Comments ans Replay Start -->
+                                <div class="comments-area comments-reply-area">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-custom">
+                                            <h5 class="title mb-2">Add a review</h5>
+                                            <p class="comments-area_text">Your email address will not be published. Required fields are marked *</p>
+
+                                            <form class="comments-area_form" method="POST" action="{{ route('reviews.store') }}">
+                                                @csrf
+                                                <div class="row">
+                                                    <div class="col-md-5 mb-3">
+                                                        <label>Name <span class="required">*</span></label>
+                                                        <input class="comments-area_input form-control" type="text" required="required" name="name">
+                                                    </div>
+                                                    <div class="col-md-5 mb-3">
+                                                        <label>Email <span class="required">*</span></label>
+                                                        <input class="comments-area_input" type="text" required="required" name="email">
+                                                    </div>
+
+                                                    <input type="hidden" name="productId" value="{{$singleProductId}}" required="required">
+                                                    <input type="hidden" name="productType" value="{{$type}}" required="required">
+                                                    
+                                                    <div class="col-md-2 mb-3">
+                                                        <label>Score <span class="required">*</span></label>
+                                                        <input class="comments-area_input" type="number" required="required" name="score" min="0" max="5" step="0.1">
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label>Comment</label>
+                                                    <textarea class="comments-area_textarea" required="required" name="comment"></textarea>
+                                                </div>
+                                                <div class="comment-form-submit">
+                                                    <button type="submit" class="btn btn-dark btn-hover-primary">Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Comments ans Replay End -->
+
+                            </div>
+                            <!-- End Single Content -->
+                        </div>
+                        <div class="tab-pane fade" id="connect-4" role="tabpanel" aria-labelledby="review-tab">
                             <div class="review size-tab table-responsive-lg">
                                 <table class="table border mb-0">
                                     <tbody>
@@ -94,89 +184,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="connect-2" role="tabpanel" aria-labelledby="profile-tab">
-                            <!-- Start Single Content -->
-                            <div class="review text-black">
-
-                                <!-- Review Top Start -->
-                                <div class="review-top d-flex mb-4 align-items-center">
-
-                                    <!-- Review Thumb Start -->
-                                    <div class="review_thumb">
-                                        <img class="review_thumb" src="{{asset('assets/images/avatar/7.jpg')}}" alt="review images">
-                                    </div>
-                                    <!-- Review Thumb End -->
-
-                                    <!-- Review Details Start -->
-                                    <div class="review_details ms-3">
-                                        <!-- Rating Start -->
-                                        <div class="review-rating mb-2">
-                                            <span class="review-rating-bg">
-                                                <span class="review-rating-active" style="width: 90%"></span>
-                                            </span>
-                                        </div>
-                                        <!-- Rating End -->
-                                        <!-- Review Title & Date Start -->
-                                        <div class="review-title-date d-flex">
-                                            <h5 class="title me-1">Admin - </h5>
-                                            <span>January 19, 2021</span>
-                                        </div>
-                                        <!-- Review Title & Date End -->
-                                        <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.</p>
-                                    </div>
-                                    <!-- Review Details End -->
-
-                                </div>
-                                <!-- Review Top End -->
-
-                                <!-- Comments ans Replay Start -->
-                                <div class="comments-area comments-reply-area">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-custom">
-                                            <h5 class="title mb-2">Add a review</h5>
-                                            <p class="comments-area_text">Your email address will not be published. Required fields are marked *</p>
-
-                                            <form class="comments-area_form" method="POST" action="{{ route('reviews.store') }}">
-                                                @csrf
-                                                <div class="row">
-                                                    <div class="col-md-5 mb-3">
-                                                        <label>Name <span class="required">*</span></label>
-                                                        <input class="comments-area_input" type="text" required="required" name="name">
-                                                    </div>
-                                                    <div class="col-md-5 mb-3">
-                                                        <label>Email <span class="required">*</span></label>
-                                                        <input class="comments-area_input" type="text" required="required" name="email">
-                                                    </div>
-                                                    
-                                                    <input type="hidden" name="productId" value="{{$singleProductId}}" required="required">
-                                                    <input type="hidden" name="productType" value="{{$type}}" required="required">
-                                                    
-                                                    <div class="col-md-2 mb-3">
-                                                        <label>Score <span class="required">*</span></label>
-                                                        <input class="comments-area_input" type="number" required="required" name="score" min="0" max="5" step="0.1">
-                                                    </div>
-
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label>Comment</label>
-                                                    <textarea class="comments-area_textarea" required="required" name="comment"></textarea>
-                                                </div>
-
-                                                
-
-                                                <div class="comment-form-submit">
-                                                    <button type="submit" class="btn btn-dark btn-hover-primary">Submit</button>
-                                                </div>
-                                            </form>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Comments ans Replay End -->
-
-                            </div>
-                            <!-- End Single Content -->
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,8 @@ return new class extends Migration
             $table->double('price');
             $table->string('type');
             $table->string('category');
-            $table->timestamps();
+            $table->string('description');
+            $table->string('temp');
         });
     }
 

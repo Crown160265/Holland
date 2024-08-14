@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use App\Models\Product;
 use App\Models\SalesPoint;
 use App\Models\Chief;
@@ -63,6 +64,7 @@ class ProductController extends Controller {
     public function detail($productName) {
         $singleProduct = Product::where('name', $productName)->first();
         $type = $singleProduct->type;
+        $id = $singleProduct->id;
         if($type == 'diary'){
             $relatedProducts = Product::where('type', $type)->get();
         }
@@ -70,10 +72,11 @@ class ProductController extends Controller {
             $category = $singleProduct->category;
             $relatedProducts = Product::where('category', $category)->get();
         }
-        return view('single-product', ['type'=>$type,'singleProduct'=>$singleProduct, 'relatedProducts'=>$relatedProducts]);
+        $customerReviews = CustomerReview::where('productId', $id)->where('productType', $type)->get();
+        return view('single-product', ['type'=>$type,'singleProduct'=>$singleProduct, 'relatedProducts'=>$relatedProducts, 'customerReviews'=>$customerReviews]);
     }
 
-    public function store(Request $request) {
+    public function store(Request $request, Response $response) {
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|max:255',
@@ -83,17 +86,21 @@ class ProductController extends Controller {
             'comment' => 'required|string|max:10000',
         ]);
 
-        dd($request->all());
+        // dd($response);
 
-        CustomerReview::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'productId' => $request->productId,
-            'productType' => $request->productType,
-            'score' => $request->score,
-            'comment' => $request->comment
-        ]);
-
-        return redirect()->back()->with('success', 'Review submitted successfully!');
+        try {
+            CustomerReview::create([
+                'name' => $request->name,
+                'email' => $request->email,
+                'productId' => $request->productId,
+                'productType' => $request->productType,
+                'score' => $request->score,
+                'comment' => $request->comment
+            ]);
+            return redirect()->back()->with('success', 'Review submitted successfully!');
+        } catch (\Exception $e) {
+            return redirect()->back()->withErrors(['error' => 'Failed to submit review: ' . $e->getMessage()]);
+        }
+        
     }
 }

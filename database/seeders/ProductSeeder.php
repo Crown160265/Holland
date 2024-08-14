@@ -24,6 +24,7 @@ class ProductSeeder extends Seeder
             'price' => 7.55,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
 
@@ -34,6 +35,7 @@ class ProductSeeder extends Seeder
             'price' => 8.95,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -45,6 +47,7 @@ class ProductSeeder extends Seeder
             'price' => 4.99,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -55,6 +58,7 @@ class ProductSeeder extends Seeder
             'price' => 6.25,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -65,6 +69,7 @@ class ProductSeeder extends Seeder
             'price' => 5.5,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -75,6 +80,7 @@ class ProductSeeder extends Seeder
             'price' => 6.9,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -85,6 +91,7 @@ class ProductSeeder extends Seeder
             'price' => 7.55,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -95,6 +102,7 @@ class ProductSeeder extends Seeder
             'price' => 5.68,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -105,6 +113,7 @@ class ProductSeeder extends Seeder
             'price' => 6.89,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -115,6 +124,7 @@ class ProductSeeder extends Seeder
             'price' => 4.35,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -125,6 +135,7 @@ class ProductSeeder extends Seeder
             'price' => 7.65,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -135,6 +146,7 @@ class ProductSeeder extends Seeder
             'price' => 5.2,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -145,6 +157,7 @@ class ProductSeeder extends Seeder
             'price' => 9.5,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -155,6 +168,7 @@ class ProductSeeder extends Seeder
             'price' => 5.8,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -165,6 +179,7 @@ class ProductSeeder extends Seeder
             'price' => 6.3,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -175,6 +190,7 @@ class ProductSeeder extends Seeder
             'price' => 7.2,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -185,6 +201,7 @@ class ProductSeeder extends Seeder
             'price' => 6.1,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -195,6 +212,7 @@ class ProductSeeder extends Seeder
             'price' => 3.9,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -205,6 +223,7 @@ class ProductSeeder extends Seeder
             'price' => 3.8,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -215,6 +234,7 @@ class ProductSeeder extends Seeder
             'price' => 5.5,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -225,6 +245,7 @@ class ProductSeeder extends Seeder
             'price' => 5.8,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -235,6 +256,7 @@ class ProductSeeder extends Seeder
             'price' => 3.9,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -245,6 +267,7 @@ class ProductSeeder extends Seeder
             'price' => 5.4,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -255,6 +278,7 @@ class ProductSeeder extends Seeder
             'price' => 6.5,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -265,6 +289,7 @@ class ProductSeeder extends Seeder
             'price' => 2.9,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -275,6 +300,7 @@ class ProductSeeder extends Seeder
             'price' => 3.9,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -285,6 +311,7 @@ class ProductSeeder extends Seeder
             'price' => 5.6,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -295,6 +322,7 @@ class ProductSeeder extends Seeder
             'price' => 6.9,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -305,6 +333,7 @@ class ProductSeeder extends Seeder
             'price' => 5.5,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -315,6 +344,7 @@ class ProductSeeder extends Seeder
             'price' => 4.7,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -325,6 +355,7 @@ class ProductSeeder extends Seeder
             'price' => 5.9,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -335,6 +366,7 @@ class ProductSeeder extends Seeder
             'price' => 5.6,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -345,6 +377,7 @@ class ProductSeeder extends Seeder
             'price' => 3.6,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -355,6 +388,7 @@ class ProductSeeder extends Seeder
             'price' => 5.3,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -365,6 +399,7 @@ class ProductSeeder extends Seeder
             'price' => 2.9,
             'type' => 'candy',
             'category' => 'CINNAMON CHUNKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -375,6 +410,7 @@ class ProductSeeder extends Seeder
             'price' => 5.3,
             'type' => 'candy',
             'category' => 'CINNAMON PILLOWS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -385,6 +421,7 @@ class ProductSeeder extends Seeder
             'price' => 5.5,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -395,6 +432,7 @@ class ProductSeeder extends Seeder
             'price' => 8.4,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -405,6 +443,7 @@ class ProductSeeder extends Seeder
             'price' => 6.9,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => 'HOT',
         ]);
         
@@ -415,6 +454,7 @@ class ProductSeeder extends Seeder
             'price' => 6.3,
             'type' => 'candy',
             'category' => 'CINNAMON STICKS',
+            'description' => 'Onze snoepjes combineren de zachte, fluweelzachte essentie van romige melk met de verrukkelijke zoetheid van rijke chocolade, wat een harmonieus smaakprofiel creëert dat het gehemelte met elke hap verrukt.',
             'temp' => '',
         ]);
         
@@ -425,6 +465,7 @@ class ProductSeeder extends Seeder
             'price' => 4.2,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -435,6 +476,7 @@ class ProductSeeder extends Seeder
             'price' => 15.23,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -445,6 +487,7 @@ class ProductSeeder extends Seeder
             'price' => 5.3,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -455,6 +498,7 @@ class ProductSeeder extends Seeder
             'price' => 18.93,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -465,6 +509,7 @@ class ProductSeeder extends Seeder
             'price' => 5.98,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -475,6 +520,7 @@ class ProductSeeder extends Seeder
             'price' => 12.9,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -485,6 +531,7 @@ class ProductSeeder extends Seeder
             'price' => 10.3,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -495,6 +542,7 @@ class ProductSeeder extends Seeder
             'price' => 5.6,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -505,6 +553,7 @@ class ProductSeeder extends Seeder
             'price' => 8.6,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -515,6 +564,7 @@ class ProductSeeder extends Seeder
             'price' => 4.3,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -525,6 +575,7 @@ class ProductSeeder extends Seeder
             'price' => 5.6,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
         
@@ -535,6 +586,7 @@ class ProductSeeder extends Seeder
             'price' => 8.3,
             'type' => 'diary',
             'category' => '',
+            'description' => 'Onze melk is een zorgvuldig samengestelde mix die naadloos de diepe rijkdom en fluweelzachte textuur van premium, hoogwaardige melk combineert met de weelderige, onweerstaanbare zoetheid van snoep van topklasse.',
             'temp' => '',
         ]);
     }
