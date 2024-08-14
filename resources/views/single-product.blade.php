@@ -161,6 +161,16 @@
                                                     <button type="submit" class="btn btn-dark btn-hover-primary">Submit</button>
                                                 </div>
                                             </form>
+                                            
+                                            @if(session('success'))
+                                                <script>
+                                                    alert("{{ session('success') }}");
+                                                </script>
+                                            @elseif(session('error'))
+                                                <script>
+                                                    alert("{{ session('error') }}");
+                                                </script>
+                                            @endif
                                         </div>
                                     </div>
                                 </div>

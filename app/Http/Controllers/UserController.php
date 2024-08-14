@@ -31,7 +31,7 @@ class UserController extends Controller {
                 'subject' => $request->subject,
                 'message' => $request->message,
             ]);
-            return redirect()->back()->with('success', 'User submitted successfully!');
+            return redirect()->back()->with('success', 'Message submitted successfully!');
         } catch (\Exception $e) {
             return redirect()->back()->withErrors(['error' => 'Failed to submit user: ' . $e->getMessage()]);
         }

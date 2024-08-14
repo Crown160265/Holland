@@ -104,6 +104,16 @@
                                 </div>
                             </div>
                         </form>
+                        
+                        @if(session('success'))
+                            <script>
+                                alert("{{ session('success') }}");
+                            </script>
+                        @elseif(session('error'))
+                            <script>
+                                alert("{{ session('error') }}");
+                            </script>
+                        @endif
                         <!-- Message Notification -->
                         <!-- <div class="form-messege"></div> -->
                     </div>
