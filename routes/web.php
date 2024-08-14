@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,3 +27,5 @@ Route::get('/products/{category}', [ProductController::class,'products'])->name(
 Route::get('/product/{name}', [ProductController::class,'detail'])->name('product');
 
 Route::post('/customer-reviews', [ProductController::class,'store'])->name('reviews.store');
+
+Route::post('/users', [UserController::class,'store'])->name('users.store');

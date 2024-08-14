@@ -138,7 +138,7 @@
                                                 <div class="row">
                                                     <div class="col-md-5 mb-3">
                                                         <label>Name <span class="required">*</span></label>
-                                                        <input class="comments-area_input form-control" type="text" required="required" name="name">
+                                                        <input class="comments-area_input" type="text" required="required" name="name">
                                                     </div>
                                                     <div class="col-md-5 mb-3">
                                                         <label>Email <span class="required">*</span></label>

@@ -66,59 +66,46 @@
                         <div class="section-title-04 text-center">
                             <h5 class="slider-content-04__title_contact text-red">Say Something</h5>
                         </div>
-                        <form class="contact-section2_form" id="contact-form" action="assets/php/mail.php" method="post">
+                        <form class="comments-area_form"  method="POST" action="{{ route('users.store') }}">
+                            @csrf
                             <div class="row">
                                 <div class="col-sm-6 col-6 form-p">
-                                    <div class="form-group">
-                                        <label>Voomaam*</label>
-                                        <input class="form-field" type="text" name="name">
-                                    </div>
+                                    <label>Voomaam <span class="required">*</span></label>
+                                    <input class="comments-area_input" type="text" required="required" name="firstname">
                                 </div>
                                 <div class="col-sm-6 col-6 form-p">
-                                    <div class="form-group">
-                                        <label>Achtemaam*</label>
-                                        <input class="form-field" type="text" name="lastname">
-                                    </div>
+                                    <label>Achtemaam <span class="required">*</span></label>
+                                    <input class="comments-area_input" type="text" name="lastname" required="required">
                                 </div>
                                 <div class="col-sm-6 col-6 form-p">
-                                    <div class="form-group">
-                                        <label>Bedrijf*</label>
-                                        <input class="form-field" type="text" name="name">
-                                    </div>
+                                    <label>Bedrijf <span class="required">*</span></label>
+                                    <input class="comments-area_input" type="text" name="company" required="required">
                                 </div>
                                 <div class="col-sm-6 col-6 form-p">
-                                    <div class="form-group">
-                                        <label>Telefoon*</label>
-                                        <input class="form-field" type="text" name="lastname">
-                                    </div>
+                                    <label>Telefoon <span class="required">*</span></label>
+                                    <input class="comments-area_input" type="text" name="phone" required="required">
                                 </div>
                                 <div class="col-sm-6 col-6 form-p">
-                                    <div class="form-group">
-                                        <label>E-mail*</label>
-                                        <input class="form-field" type="text" name="name">
-                                    </div>
+                                    <label>E-mail <span class="required">*</span></label>
+                                    <input class="comments-area_input" type="text" name="email" required="required">
                                 </div>
                                 <div class="col-sm-6 col-6 form-p">
-                                    <div class="form-group">
-                                        <label>Onderwerp*</label>
-                                        <input class="form-field" type="text" name="lastname">
-                                    </div>
+                                    <label>Onderwerp <span class="required">*</span></label>
+                                    <input class="comments-area_input" type="text" name="subject" required="required">
                                 </div>
                                 <div class="col-md-12 form-p">
-                                    <div class="form-group">
-                                        <label>Bericht*</label>
-                                        <textarea class="form-control text-area" name="message"></textarea>
-                                    </div>
+                                    <label>Bericht</label>
+                                    <textarea class="comments-area_textarea" required="required" name="message"></textarea>
                                 </div>
                                 <div class="col-md-12 form-p">
                                     <div class="form-group mb-0 d-flex justify-content-center">
-                                        <button class="btn btn-secondary btn-hover-primary" type="submit" value="Send Massage">Send Message</button>
+                                        <button class="btn btn-secondary btn-hover-primary" type="submit">Send Message</button>
                                     </div>
                                 </div>
                             </div>
                         </form>
                         <!-- Message Notification -->
-                        <div class="form-messege"></div>
+                        <!-- <div class="form-messege"></div> -->
                     </div>
                 </div>
             </div>
