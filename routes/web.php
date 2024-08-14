@@ -25,3 +25,5 @@ Route::get('/collection/diary', [ProductController::class,'diary'])->name('diary
 
 Route::get('/products/{category}', [ProductController::class,'products'])->name('products');
 Route::get('/product/{name}', [ProductController::class,'detail'])->name('product');
+
+Route::post('/customer-reviews', [ProductController::class,'store'])->name('reviews.store');

@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Chief;
+use Illuminate\Support\Facades\DB;
 
 class ChiefSeeder extends Seeder
 {

@@ -343,17 +343,6 @@
                                             <img src="{{$candyProductImageUrl}}" style="height:auto; aspect-ratio:1/1;" alt="Product" />
                                         </a>
                                     </div>
-                                    <ul class="product-item-style-01__meta">
-                                        <li class="product-item-style-01__meta-action">
-                                            <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
-                                        </li>
-                                        <li class="product-item-style-01__meta-action">
-                                            <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
-                                        </li>
-                                        <li class="product-item-style-01__meta-action">
-                                            <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
-                                        </li>
-                                    </ul>
                                     <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
                                         <div class="product-item-style-01__content">
                                             <h5 class="product-item-style-01__title"><a href="{{$candyProductImageUrl}}">{{$candyProductName}}</a></h5>
@@ -362,7 +351,6 @@
                                             </div>
                                         </div>
                                         <div class="product-item-style-01__cart">
-                                            <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -424,17 +412,6 @@
                                             <img src="{{$diaryProductImageUrl}}" style="height:auto; aspect-ratio:1/1;" alt="Product">
                                         </a>
                                     </div>
-                                    <ul class="product-item-style-01__meta">
-                                        <li class="product-item-style-01__meta-action">
-                                            <a class="shadow-1 labtn-icon-quickview" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleProductModal"></a>
-                                        </li>
-                                        <li class="product-item-style-01__meta-action">
-                                            <a class="shadow-1 labtn-icon-wishlist" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to wishlist" data-bs-toggle="modal" data-bs-target="#modalWishlist"></a>
-                                        </li>
-                                        <li class="product-item-style-01__meta-action">
-                                            <a class="shadow-1 labtn-icon-compare" href="#/" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to compare" data-bs-toggle="modal" data-bs-target="#modalCompare"></a>
-                                        </li>
-                                    </ul>
                                     <div class="product-item-style-01__content-wrapper d-flex justify-content-between align-items-center">
                                         <div class="product-item-style-01__content">
                                             <h5 class="product-item-style-01__title"><a href="{{$diaryProductImageUrl}}">{{$diaryProductName}}</a></h5>
@@ -443,7 +420,6 @@
                                             </div>
                                         </div>
                                         <div class="product-item-style-01__cart">
-                                            <a href="#/" class="labtn-icon-cart" data-bs-tooltip="tooltip" data-bs-placement="top" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#modalCart"></a>
                                         </div>
                                     </div>
                                 </div>

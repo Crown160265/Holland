@@ -15,9 +15,13 @@ return new class extends Migration
     {
         Schema::create('customer_reviews', function (Blueprint $table) {
             $table->id();
-            $table->string('description');
-            $table->string('avatar');
             $table->string('name');
+            $table->string('email');
+            $table->unsignedBigInteger('productId');
+            $table->string('productType');
+            $table->double('score');
+            $table->string('comment',10000);
+            $table->timestamps();
         });
     }
 

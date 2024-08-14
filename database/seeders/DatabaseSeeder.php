@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Database\Seeders\ProductSeeder;
 use Database\Seeders\ChiefSeeder;
-use Database\Seeders\CustomerReviewSeeder;
 use Database\Seeders\SalesPointSeeder;
 
 class DatabaseSeeder extends Seeder
@@ -19,7 +18,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(ProductSeeder::class);
         $this->call(ChiefSeeder::class);
-        $this->call(CustomerReviewSeeder::class);
         $this->call(SalesPointSeeder::class);
     }
 }

@@ -16,13 +16,13 @@ class ProductController extends Controller {
         return view('index', ['candyProducts'=>$candyProducts, 'diaryProducts'=>$diaryProducts]);
     }
 
-    public function about() {
-        $products = Product::all();
-        $chiefs = Chief::all();
-        $reviews = CustomerReview::all();
+    // public function about() {
+    //     $products = Product::all();
+    //     $chiefs = Chief::all();
+    //     $reviews = CustomerReview::all();
 
-        return view('about', ['products'=>$products, 'chiefs'=>$chiefs, 'reviews'=>$reviews]);
-    }
+    //     return view('about', ['products'=>$products, 'chiefs'=>$chiefs, 'reviews'=>$reviews]);
+    // }
 
     public function salespoints() {
         $salespoints = SalesPoint::all();  
@@ -71,36 +71,29 @@ class ProductController extends Controller {
             $relatedProducts = Product::where('category', $category)->get();
         }
         return view('single-product', ['type'=>$type,'singleProduct'=>$singleProduct, 'relatedProducts'=>$relatedProducts]);
-        // $locationIds = empty(request()->location_ids) ? [] : request()->location_ids;
-        // $sizeIds = empty(request()->size_ids) ? [] : request()->size_ids;
-        // $keyword = empty(request()->keyword) ? '' : request()->keyword;
+    }
 
-        // $locations = Location::withCount(['products' => function($q) {
-        //     $q->where('products.is_active', true)
-        //         ->where('products.is_verified', true);
-        // }])->where('is_active', TRUE)
-        // ->orderBy('name', 'ASC')
-        // ->having('products_count', '>', 0)->get();
-        // $sizes = Size::withCount(['products' => function($q) {
-        //     $q->where('is_active', true)
-        //         ->where('is_verified', true);
-        // }])->where('is_active', TRUE)
-        // ->orderBy('name', 'ASC')
-        // ->having('products_count', '>', 0)->get();
+    public function store(Request $request) {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|max:255',
+            'productId' => 'required|integer',
+            'productType' => 'required|string|max:255',
+            'score' => 'required|numeric',
+            'comment' => 'required|string|max:10000',
+        ]);
 
-        // $products = Product::where('is_active', true)->where('is_verified', true);
-        // if (!empty($locationIds)) {
-        //     $products = $products->whereIn('location_id', $locationIds);
-        // }
+        dd($request->all());
 
-        // if (!empty($sizeIds)) {
-        //     $products = $products->whereIn('size_id', $sizeIds);
-        // }
+        CustomerReview::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'productId' => $request->productId,
+            'productType' => $request->productType,
+            'score' => $request->score,
+            'comment' => $request->comment
+        ]);
 
-        // if (!empty($keyword)) {
-        //     $products = $products->where('name', 'like', '%'.$keyword.'%');
-        // }
-
-        // $products = $products->orderBy('name', 'ASC')->orderBy('pack_size', 'asc')->get();
+        return redirect()->back()->with('success', 'Review submitted successfully!');
     }
 }

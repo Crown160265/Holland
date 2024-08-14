@@ -14607,7 +14607,6 @@ textarea.form-control {
   }
 }
 .product-desc-img {
-  max-width: 46%;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
@@ -14617,9 +14616,9 @@ textarea.form-control {
   }
 }
 .product-desc-content {
-  max-width: 38%;
   width: 100%;
   right: 5%;
+
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14685,6 +14684,7 @@ textarea.form-control {
 }
 .review_thumb {
   width: 100px;
+  height: 100px;
 }
 .review-title-date {
   line-height: 1;
@@ -16297,4 +16297,8 @@ div.product-additional-info {
   .position-top1 {
     padding-top: 100px;
   } 
+}
+.product-meta-custom {
+  padding-top: 50px;
+  margin-left: -25px;
 }
