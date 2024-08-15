@@ -3303,7 +3303,7 @@ textarea.form-control {
 }
 
 .single-slider-02 {
-  height: 910px;
+  height: 960px;
   display: flex;
   align-items: center;
   background-position: center center;
@@ -3315,22 +3315,22 @@ textarea.form-control {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .single-slider-02 {
-    height: 800px;
+    height: 750px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-slider-02 {
-    height: 660px;
+    height: 700px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .single-slider-02 {
-    height: 540px;
+    height: 440px;
   }
 }
-.single-slider-02::before {
-  position: absolute;
-  content: "";
+/* .single-slider-02::before { */
+  /* position: absolute; */
+  /* content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -3338,7 +3338,7 @@ textarea.form-control {
   background-color: #212121;
   opacity: 0.7;
   z-index: -1;
-}
+} */
 
 .single-slider-03 {
   height: 1090px;
@@ -9021,9 +9021,9 @@ textarea.form-control {
   position: relative;
   z-index: 1;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px), only screen and (max-width: 767px) {
   .features-card-wrapper {
-    margin-top: -180px;
+    margin-top: -100px;
     padding: 20px;
   }
 }
@@ -10831,7 +10831,7 @@ textarea.form-control {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .single-blog-image img {
   position: absolute;
@@ -10839,6 +10839,9 @@ textarea.form-control {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.pt-10 {
+  padding-top: 100px;
 }
 .single-blog-title {
   font-family: "Montaga", serif;
@@ -10861,8 +10864,8 @@ textarea.form-control {
 .single-blog-bottom {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   padding: 30px 0;
   margin-top: 30px;
 }
@@ -14675,9 +14678,22 @@ textarea.form-control {
   margin-left: auto;
   width: 100%;
 }
+.border-red {
+  padding: 2px;
+  border: 2px solid #d00018 !important;
+}
+.border-blue {
+  border: 2px solid #0a3083 !important;
+}
+.site-text-red {
+  color: #d00018;
+}
+.site-text-blue {
+  color: #0a3083;
+}
 .review_thumb_1 {
   padding: 2px;
-  border: 2px solid #d71506;
+  border: 2px solid #d00018;
 }
 .review_thumb_2 {
   width: 80px;
@@ -16295,7 +16311,7 @@ div.product-additional-info {
 
 @media only screen and (max-width: 1200px){
   .position-top1 {
-    padding-top: 100px;
+    padding-top: 103px;
   } 
 }
 .product-meta-custom {

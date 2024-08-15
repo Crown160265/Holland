@@ -13,28 +13,21 @@
         $pinterestUrl = $salespoint->pinterest;
         $instagramUrl = $salespoint->instagram;
     @endphp
-    <!-- <div class="slider-section slider-active overflow-hidden">
-        <div class="single-slider-04 animation-style-01" style="background-image: url(/assets/images/make-sale/bg.jpg);">
-            <div class="container">
-                <div class="rolling-text slider-content-04__title text-red">
-                    <span>{{$title}}</span>
-                </div><br>
-            </div>
-        </div>
-    </div> -->
     <div class="breadcrumb background-red" style="height: 25vh;">
     </div>
-    <div class="blog-sidebar blog-sidebar-right">
+    <div class="blog-sidebar blog-sidebar-right" style="background-image: url(/assets/images/background-1.png);">
         <div class="container custom-container">
             <div class="row">
                 <div class="col-12 section-padding-04">
                     <div class="">
                         <div class="single-blog">
-                            <div class="single-blog-image">
-                                <img src="{{$imageUrl}}" alt="Single-Blog">
+                            <div class="border-red">
+                                <div class="single-blog-image border-blue">
+                                    <img src="{{$imageUrl}}" alt="Single-Blog">
+                                </div>
                             </div>
-                            <div class="single-blog-content">
-                                <div class="section-title-04 pt-6">
+                            <div class="single-blog-content pt-10">
+                                <div class="section-title-04">
                                     <h3 class="slider-content-04__title_contact text-red"><a href="/salespoint/{{$titletolow}}">{{$title}}</a></h3>
                                 </div>
                                 <div class="blog-post__text text-black">{{$description}}</div>
@@ -71,22 +64,22 @@
                                         <div class="row">
                                             <div class="col-sm-4 col-12 form-p">
                                                 <div class="form-group">
-                                                    <input class="form-field" type="text" placeholder="First Name*">
+                                                    <input class="form-field border-red" type="text" placeholder="First Name*">
                                                 </div>
                                             </div>
                                             <div class="col-sm-4 form-p">
                                                 <div class="form-group">
-                                                    <input class="form-field" type="email" placeholder="Email*">
+                                                    <input class="form-field border-red" type="email" placeholder="Email*">
                                                 </div>
                                             </div>
                                             <div class="col-sm-4 col-12 form-p">
                                                 <div class="form-group">
-                                                    <input class="form-field" type="text" placeholder="Website">
+                                                    <input class="form-field border-red" type="text" placeholder="Website">
                                                 </div>
                                             </div>
                                             <div class="col-md-12 form-p">
                                                 <div class="form-group">
-                                                    <textarea class="form-control text-area" name="con_message" placeholder="Message"></textarea>
+                                                    <textarea class="form-control text-area border-blue" name="con_message" placeholder="Message"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 form-p">

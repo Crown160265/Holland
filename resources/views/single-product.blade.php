@@ -38,8 +38,8 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5">
                     <div class="product-desc-content">
-                        <h5 class="product-desc-title">We Love {{$singleProductName}}</h5>
-                        <p class="product-desc-text">{{$singleProductDesc}}</p>
+                        <h5 class="product-desc-title site-text-blue">We Love {{$singleProductName}}</h5>
+                        <p class="product-desc-text site-text-blue">{{$singleProductDesc}}</p>
                     </div>
 
                     <ul class="product-meta-custom">
@@ -138,11 +138,11 @@
                                                 <div class="row">
                                                     <div class="col-md-5 mb-3">
                                                         <label>Name <span class="required">*</span></label>
-                                                        <input class="comments-area_input" type="text" required="required" name="name">
+                                                        <input class="comments-area_input border-blue" type="text" required="required" name="name">
                                                     </div>
                                                     <div class="col-md-5 mb-3">
                                                         <label>Email <span class="required">*</span></label>
-                                                        <input class="comments-area_input" type="text" required="required" name="email">
+                                                        <input class="comments-area_input border-blue" type="text" required="required" name="email">
                                                     </div>
 
                                                     <input type="hidden" name="productId" value="{{$singleProductId}}" required="required">
@@ -150,12 +150,12 @@
                                                     
                                                     <div class="col-md-2 mb-3">
                                                         <label>Score <span class="required">*</span></label>
-                                                        <input class="comments-area_input" type="number" required="required" name="score" min="0" max="5" step="0.1">
+                                                        <input class="comments-area_input border-blue" type="number" required="required" name="score" min="0" max="5" step="0.1">
                                                     </div>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label>Comment</label>
-                                                    <textarea class="comments-area_textarea" required="required" name="comment"></textarea>
+                                                    <textarea class="comments-area_textarea border-red" required="required" name="comment"></textarea>
                                                 </div>
                                                 <div class="comment-form-submit">
                                                     <button type="submit" class="btn btn-dark btn-hover-primary">Submit</button>

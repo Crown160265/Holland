@@ -3,9 +3,7 @@
 
 @section('main')
     <!-- Breadcrumb Section Start -->
-    <div class="breadcrumb background-red" style="height: 25vh;">
-    </div>
-   
+    
     <div class="slider-section slider-active overflow-hidden">
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -13,12 +11,12 @@
                  @php
                     $candyImageUrl = '/assets/images/bg/' . $category . '.png';
                  @endphp
-                <div class="swiper-slide single-slider-04 animation-style-04" style="height:75vh; background-image: url({{ $candyImageUrl }});">
-                    <div class="container">
+                <div class="swiper-slide single-slider-04 animation-style-04" style="background-image: url({{ $candyImageUrl }});">
+                    <div class="container position-top">
                         <!-- Slider Content Start -->
                         <div class="slider-content-04">
                             <h1 class="slider-content-04__title text-white">{{str_replace("-", " ", $category)}}</h1>
-                            <a class="slider-content-07__btn btn slider-btn-02 rounded-pill" href="{{url('/')}}"><span>Home</span></a>
+                            <!-- <a class="slider-content-07__btn btn slider-btn-02 rounded-pill" href="{{url('/')}}"><span>Home</span></a> -->
                             <a class="slider-content-07__btn btn slider-btn-02 rounded-pill" href="{{url('/collection/candy')}}"><span>Candy</span></a>
                         </div>
                         <!-- Slider Content Start -->
