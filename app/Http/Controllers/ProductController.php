@@ -33,7 +33,8 @@ class ProductController extends Controller {
     public function salespoint($title) {
         $titleUC = ucwords(str_replace("-", " ", $title));
         $salespoint = SalesPoint::where('title', $titleUC)->first();
-        return view('salespoint-detail', ['salespoint'=>$salespoint]);
+        $salespoints = SalesPoint::all();
+        return view('salespoint-detail', ['salespoint'=>$salespoint, 'salespoints'=>$salespoints]);
     }
 
     public function contact() {

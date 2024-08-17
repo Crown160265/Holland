@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-</div>
+    </div>
         </div>
     <!-- Product Section End -->
     </div>

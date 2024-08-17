@@ -16317,3 +16317,49 @@ div.product-additional-info {
 .product-meta-custom {
   padding-top: 50px;
 }
+
+.salespoint-image{
+  width: 500px;
+  height: 500px;
+  border-radius: 20%;
+  -webkit-animation: rotation 12s infinite linear;
+}
+.salespoint-image:hover{
+  -webkit-animation: rotation 0s infinite linear;
+}
+
+@media only screen and (max-width: 1600px){
+  .salespoint-image {
+    width: 400px;
+    height: 400px;
+  } 
+}
+@media only screen and (max-width: 1200px){
+  .salespoint-image {
+    width: 300px;
+    height: 300px;
+  } 
+}
+
+@media only screen and (max-width: 995px){
+  .salespoint-image {
+    width: 250px;
+    height: 250px;
+  } 
+}
+
+.padding-y{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.netherlands-map{
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #d00018, #0a3083); /* Define the gradient colors */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+}
