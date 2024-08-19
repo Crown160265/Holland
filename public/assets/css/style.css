@@ -16322,10 +16322,6 @@ div.product-additional-info {
   width: 500px;
   height: 500px;
   border-radius: 20%;
-  -webkit-animation: rotation 12s infinite linear;
-}
-.salespoint-image:hover{
-  -webkit-animation: rotation 0s infinite linear;
 }
 
 @media only screen and (max-width: 1600px){
